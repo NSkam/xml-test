@@ -1,0 +1,22 @@
+Xpath 1:
+/Schedule/Lesson[Lecture/Day="Monday"]/Title
+
+Result 1:
+Node	Title	Constraint Satisfaction Problems
+Node	Title	Artificial Intelligence
+Node	Title	AI Programming
+
+Xpath 2:
+/Schedule/Lesson[Lecture/@Classroom="BA"]/Title
+
+Result 2:
+Node	Title	Artificial Intelligence
+
+Xpath 3:
+/Schedule/Lesson[Professor="Hatzilygeroudis"]/Lecture
+
+Result 3:
+Node	Lecture	Classroom="BA" 
+Node	Lecture	Classroom="BA" 
+Node	Lecture	Classroom="P200" 
+Node	Lecture	Classroom="B3" 
